@@ -1,5 +1,5 @@
 import os
-from flask import Flask
+from flask import Flask, request
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from flask_sqlalchemy import SQLAlchemy
